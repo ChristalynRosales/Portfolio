@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Projects - Christalyn Rosales</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                My <span>Portfolio</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="index.html">HOME</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="projects.html" class="active">PROJECTS</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="contact.html">CONTACT</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="index.html">HOME</a>
+                <a href="projects.html" class="active">PROJECTS</a>
+                <a href="contact.html">CONTACT</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section class="projects">
+        <div class="projects-container">
+            <h2 data-aos="fade-up" data-aos-duration="1500">Projects</h2>
+            <div class="project" data-aos="fade-right" data-aos-duration="1500">
+                <img src="images/Consult.png" alt="Project 1">
+                <div class="project-info">
+                    <h3>Appointment System using Angular, PHP, REST API</h3>
+                    <p>This project is an Appointment System developed using Angular for the frontend, PHP for the backend, and a REST API for communication. It includes features like booking appointments, managing schedules, and user authentication. The system supports administrative, instructor, and student appointments and includes a queuing system to avoid lines.</p>
+                </div>
+            </div>
+
+            <div class="project" data-aos="fade-left" data-aos-duration="1500">
+                <img src="images/Gallery.png" alt="Project 2">
+                <div class="project-info">
+                    <h3>Image Gallery with User Management:</h3>
+                    <p>This project features an interactive image gallery built with Angular for the frontend, PHP for the backend, and a REST API for seamless data handling. Users can browse thumbnails, view full-size images, and upload their own with basic validation. Additional functionalities include image editing, filters, and commenting, all designed with a focus on enhancing user experience and ease of use.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init({offset: 0});</script>
+    <script src="script.js"></script>
+</body>
+</html>
