@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Skills - Christalyn Rosales</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                My <span>Portfolio</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="index.html">HOME</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="projects.html">PROJECTS</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="skills.html" class="active">SKILLS</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="contact.html">CONTACT</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="index.html">HOME</a>
+                <a href="projects.html">PROJECTS</a>
+                <a href="skills.html" class="active">SKILLS</a>
+                <a href="contact.html">CONTACT</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section class="skills">
+        <div class="skills-container">
+            <h2 data-aos="fade-up" data-aos-duration="1500">Skills</h2>
+            <div class="skill" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="400">
+                <h3>HTML</h3>
+                <p>Proficient in creating structured, semantic web pages with HTML, adhering to best practices for accessibility and SEO.</p>
+            </div>
+            <div class="skill" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="400">
+                <h3>CSS</h3>
+                <p>Experienced in designing responsive and visually appealing user interfaces with CSS, including Flexbox, Grid, and animations.</p>
+            </div>
+            <div class="skill" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="400">
+                <h3>JavaScript</h3>
+                <p>Skilled in JavaScript for adding interactivity and dynamic behavior to web pages, with a strong understanding of different features.</p>
+            </div>
+            <div class="skill" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="400">
+                <h3>Angular</h3>
+                <p>Experienced in building scalable single-page applications with Angular, utilizing TypeScript, RxJS, and Angular Material.</p>
+            </div>
+            <div class="skill" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="400">
+                <h3>PHP</h3>
+                <p>Proficient in backend development with PHP, including creating RESTful APIs, handling database interactions, and implementing security best practices.</p>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init({offset: 0});</script>
+    <script src="script.js"></script>
+</body>
+</html>
