@@ -224,7 +224,52 @@ section {
     box-shadow: 0 0 40px #077b32;
 }
 
-/*PROJECTS STYLES*/
+/*--------------------------------SKILLS STYLES------------------------------*/
+
+.skills {
+    width: 100%;
+    padding: 50px 0;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.skills h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #077b32;
+}
+
+.skills-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.skill h3 {
+    font-size: 1.25rem;
+    color: #077b32;
+    margin-bottom: 10px;
+}
+
+.skill p {
+    font-size: 1rem;
+    color: #ccc;
+    line-height: 1.5;
+}
+
+/*--------------------------------PROJECTS STYLES----------------------------*/
 
 .projects {
     width: 100%;
@@ -284,7 +329,7 @@ section {
     color: #333;
 }
 
-/*CONTACT STYLES*/
+/*--------------------------------CONTACT STYLES---------------------------*/
 
 .contact {
     width: 100%;
@@ -436,6 +481,20 @@ section {
         text-align: center;
     }
 
+    /*RESPONSIVE SKILLSPAGE*/
+
+    .skills-container {
+        width: 100%;
+    }
+
+    .skill h3 {
+        font-size: 1.15rem;
+    }
+
+    .skill p {
+        font-size: 0.95rem;
+    }
+
     
     /*RESPONSIVE CONTACT PAGE*/
 
@@ -472,7 +531,6 @@ section {
 
 
 
-
 @media (max-width:440px) {
     .main-container .image {
         width: 50%;
@@ -499,6 +557,20 @@ section {
     }
 
     .project-info p {
+        font-size: 0.9rem;
+    }
+
+    /*RESPONSIVE SKILLSPAGE*/
+
+    .skills h2 {
+        font-size: 1.75rem;
+    }
+
+    .skill h3 {
+        font-size: 1rem;
+    }
+
+    .skill p {
         font-size: 0.9rem;
     }
 
